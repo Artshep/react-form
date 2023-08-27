@@ -40,8 +40,7 @@ const UserForm = () => {
       setFormErrors(null);
       setFormValues(InitialValues);
       alert(
-        `Submitted succesfully. First name: ${firstName}, 
-        Last name: ${lastName}, Email: ${email}, Message: ${message}`
+        `Submitted succesfully. First name: ${firstName}, Last name: ${lastName}, Email: ${email}, Message: ${message}`
       );
     } else {
       setFormErrors(errors);

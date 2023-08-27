@@ -34,7 +34,7 @@ const initialState = {
   message: "",
 };
 
-const reducer = (state = initialState, action) => {
+export const reducer = (state = initialState, action) => {
   switch (action.type) {
     case SET_USER_FIRST_NAME:
       return { ...state, firstName: action.payload };
