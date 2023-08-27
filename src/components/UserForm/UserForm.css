@@ -1,0 +1,10 @@
+.user-form__container {
+    display: grid;
+    gap: 1rem;
+}
+
+.user-form__container label {
+    display: block;
+    margin-bottom: 0.15rem;
+    font-weight: 700;
+}
